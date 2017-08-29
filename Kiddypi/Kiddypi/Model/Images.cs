@@ -10,6 +10,6 @@ namespace Kiddypi.Model
     {
         public string ImageUrl { get; set; }
        public string ImageName { get; set; }
-
+        public string ImageDescription { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kiddypi.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,10 +18,13 @@ namespace Kiddypi.View
             InitializeComponent();
         }
 
-        //private async void Button_Clicked(object sender, EventArgs e)
-        //{
-        //    var nextPage = new StudentViewPage();
-        //    await this.Navigation.PushAsync(nextPage);
-        //}
+        public ImageViewModel ViewModel { get { return (BindingContext as ImageViewModel); } }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            if (ViewModel.Imagedetails.Count == 0)
+                ViewModel.GetImageCommand.Execute(null);
+        }
     }
 }

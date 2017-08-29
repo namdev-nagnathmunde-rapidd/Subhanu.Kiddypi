@@ -16,7 +16,9 @@ namespace Kiddypi
 
             //MainPage = new Kiddypi.MainPage();
 
-            MainPage = new StudentViewPage();
+           // MainPage = new StudentViewPage();
+
+            MainPage =new ImageViewPage();
         }
 
         protected override void OnStart()
