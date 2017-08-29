@@ -1,0 +1,40 @@
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Kiddypi.dll
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Kiddypi.pdb
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.csprojResolveAssemblyReference.cache
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.MainPage.xaml.g.cs
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.App.xaml.g.cs
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.dll
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.pdb
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.StudentViewPage.xaml.g.cs
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.ImageViewPage.xaml.g.cs
+c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.VideoViewModel.xaml.g.cs
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Kiddypi.dll
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Kiddypi.pdb
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Newtonsoft.Json.dll
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Core.dll
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Platform.dll
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Newtonsoft.Json.xml
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Core.pdb
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Core.xml
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Platform.pdb
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.csprojResolveAssemblyReference.cache
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.MainPage.xaml.g.cs
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.App.xaml.g.cs
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.ImageViewPage.xaml.g.cs
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.StudentViewPage.xaml.g.cs
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.VideoViewModel.xaml.g.cs
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.LoginViewPage.xaml.g.cs
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.FirebaseQueryCheck.xaml.g.cs
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.dll
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.pdb

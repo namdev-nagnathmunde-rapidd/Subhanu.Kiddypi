@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kiddypi.View.StudentViewPage"
+             xmlns:local="clr-namespace:Kiddypi"
+             xmlns:ViewModel="clr-namespace:Kiddypi.ViewModel;assembly=Kiddypi"
+             x:Name="StudentViewPage"
+             Title="{Binding Title}">
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Sync" Command="{Binding GetSpeakersCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.BindingContext>
+        <ViewModel:StudentViewModel>
+
+        </ViewModel:StudentViewModel>
+
+    </ContentPage.BindingContext>
+
+    <ListView ItemsSource="{Binding Studentdetails}" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text=" {Binding StudentName}">
+
+                        </Label>
+                        <Label Text=" {Binding StudentID}">
+
+                        </Label>
+                        <Label Text=" {Binding Image}">
+
+                        </Label>
+                        <Label Text=" {Binding Age}">
+                        </Label>
+                        <Label Text=" {Binding DOB}">
+
+                        </Label>
+
+
+
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>
+
+  
+        <!--<Button Clicked="Button_Clicked" VerticalOptions="End" HorizontalOptions="Center" BorderColor="PaleGoldenrod" Text="GoToVideoPage" TextColor="Blue"/>-->
+    
+
+</ContentPage>

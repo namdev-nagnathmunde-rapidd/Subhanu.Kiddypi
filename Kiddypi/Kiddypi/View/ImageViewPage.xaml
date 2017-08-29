@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kiddypi.View.ImageViewPage"
+             xmlns:local="clr-namespace:Kiddypi"
+             xmlns:ViewModel="clr-namespace:Kiddypi.ViewModel;assembly=Kiddypi">
+
+    <ContentPage.BindingContext>
+        <ViewModel:ImageViewModel>
+
+        </ViewModel:ImageViewModel>
+
+    </ContentPage.BindingContext>
+
+    <ListView ItemsSource="{Binding Imagelist}" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text=" {Binding ImageName}"/>
+                        <Label Text=" {Binding ImageUrl}"/>
+
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>
+
+
+    <!--<Button Clicked="Button_Clicked" VerticalOptions="End" HorizontalOptions="Center" BorderColor="PaleGoldenrod" Text="GoToStudentPage" TextColor="Blue"/>-->
+
+
+</ContentPage>
