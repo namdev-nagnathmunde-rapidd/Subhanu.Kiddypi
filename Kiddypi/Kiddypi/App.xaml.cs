@@ -16,13 +16,17 @@ namespace Kiddypi
 
             //MainPage = new Kiddypi.MainPage();
 
-           // MainPage = new StudentViewPage();
+             MainPage = new StudentViewPage();
 
-            MainPage =new ImageViewPage();
+            //  MainPage =new ImageViewPage();
+            
+
         }
 
         protected override void OnStart()
         {
+
+            
             // MainPage = new LoginViewPage();
             //MainPage = new FirebaseQueryCheck();
           // MainPage = new ImageViewPage();

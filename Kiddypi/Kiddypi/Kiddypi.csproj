@@ -49,6 +49,7 @@
     </Compile>
     <Compile Include="Model\FeedBack.cs" />
     <Compile Include="Model\Images.cs" />
+    <Compile Include="Model\MenuPageMenuItem.cs" />
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,6 +65,15 @@
     </Compile>
     <Compile Include="View\LoginViewPage.xaml.cs">
       <DependentUpon>LoginViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuPage.xaml.cs">
+      <DependentUpon>MenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuPageDetail.xaml.cs">
+      <DependentUpon>MenuPageDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuPageMaster.xaml.cs">
+      <DependentUpon>MenuPageMaster.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\StudentViewPage.xaml.cs">
       <DependentUpon>StudentViewPage.xaml</DependentUpon>
@@ -152,6 +162,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\MenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\MenuPageMaster.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\MenuPageDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.267\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.267\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

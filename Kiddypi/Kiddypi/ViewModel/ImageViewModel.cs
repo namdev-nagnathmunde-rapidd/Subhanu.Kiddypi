@@ -44,7 +44,7 @@ namespace Kiddypi.ViewModel
             {
                 IsBusy = true;
 
-                var firebase = new FirebaseClient("https://studentappfirebase-667c5.firebaseio.com/");
+                var firebase = new FirebaseClient(Constants.ApplicationURL);
 
                 var Items = await firebase.Child("ImageDetails").OnceAsync<Images>();
 

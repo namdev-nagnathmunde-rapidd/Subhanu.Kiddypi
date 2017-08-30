@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kiddypi.View.FirebaseQueryCheck">
+    <ContentPage.Content>
+        <StackLayout Padding="0,40,0,0" Spacing="10">
+
+            <Button Text="Connect to FireBase" Clicked="Connect"/>
+            <Button Text="Display" Clicked="Display"/>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
