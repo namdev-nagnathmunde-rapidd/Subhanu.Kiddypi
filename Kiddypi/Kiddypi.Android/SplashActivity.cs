@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Kiddypi.Droid
 {
-    [Activity(Label = "SplashActivity")]
+    [Activity(Label = "", Theme = "@style/SplashTheme", MainLauncher = true, NoHistory = true)]
     public class SplashActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -20,6 +20,9 @@ namespace Kiddypi.Droid
             base.OnCreate(savedInstanceState);
 
             // Create your application here
+
+            System.Threading.Thread.Sleep(5000); // Simulate a long loading process on app       
+            StartActivity(typeof(MainActivity));
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Firebase.Xamarin.Database;
 using Kiddypi.Firebase;
 using Kiddypi.Model;
+using Kiddypi.View;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -18,6 +19,11 @@ namespace Kiddypi.ViewModel
     public class StudentViewModel : ViewModelBase
     {
         public string propertyName;
+
+        LoginViewPage getuniquestudent = new LoginViewPage();
+
+       // public string  user_check= getuniquestudent.Focus
+
 
         public ObservableCollection<Student> Studentdetails { get; set; }
 
@@ -43,7 +49,7 @@ namespace Kiddypi.ViewModel
             {
                 IsBusy = true;
 
-                var firebase = new FirebaseClient("https://studentappfirebase-667c5.firebaseio.com/");
+                var firebase = new FirebaseClient(Constants.ApplicationURL);
 
                 var Items = await firebase.Child("StudentDetails").OnceAsync<Student>();
 

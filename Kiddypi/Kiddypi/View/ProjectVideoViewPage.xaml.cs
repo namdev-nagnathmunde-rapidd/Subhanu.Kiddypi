@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Kiddypi.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MenuPageDetail : ContentPage
+	public partial class ProjectVideoViewPage : ContentPage
 	{
-		public MenuPageDetail ()
+		public ProjectVideoViewPage ()
 		{
 			InitializeComponent ();
 		}

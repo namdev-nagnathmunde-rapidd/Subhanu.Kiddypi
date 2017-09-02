@@ -10,16 +10,22 @@ namespace Kiddypi
 {
     public partial class App : Application
     {
+        public static bool IsUserLoggedIn { get; internal set; }
+
         public App()
         {
             InitializeComponent();
 
-            //MainPage = new Kiddypi.MainPage();
+           // MainPage = new Kiddypi.MainPage();
 
-             MainPage = new StudentViewPage();
+            //MainPage = new StudentViewPage();
+            MainPage = new Kiddypi.MainPage();
+
+            //MainPage = new LoginViewPage();
+
 
             //  MainPage =new ImageViewPage();
-            
+
 
         }
 
@@ -28,7 +34,7 @@ namespace Kiddypi
 
             
             // MainPage = new LoginViewPage();
-            //MainPage = new FirebaseQueryCheck();
+          //  MainPage = new FirebaseQueryCheck();
           // MainPage = new ImageViewPage();
        // MainPage = new StudentViewPage();
 

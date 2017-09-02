@@ -20,7 +20,7 @@ namespace Kiddypi.View
         }
 
 
-        private static List<Student> studentstore = new List<Student>();
+        private static List<Video> studentstore = new List<Video>();
 
        // private static Dictionary<object, Student> studentstore = new Dictionary<object, Student>();
 
@@ -30,16 +30,17 @@ namespace Kiddypi.View
         {
             var firebase = new FirebaseClient("https://studentappfirebase-667c5.firebaseio.com/");
 
-            var item = await firebase.Child("StudentDetails").PostAsync(new Student() { StudentName = "Nmdev", Age = "24" ,DOB="12/08/2007",StudentID="66637",Image="URL"});
+            var item = await firebase.Child("StudentDetails").PostAsync(new Student() { StudentName = "Nmdev1", ParentName="", EmailID="", AreaOfInterest="", Hobbies="", ImageUrl="", Project="", Age = "24" ,DOB="12/08/2007",StudentID=435});
 
 
         }
 
         private async void Display(object sender, System.EventArgs e)
         {
-            var firebase = new FirebaseClient("https://studentappfirebase-667c5.firebaseio.com/");
 
-            var Items = await firebase.Child("StudentDetails").OnceAsync<Student>();
+            var firebase = new FirebaseClient(" https://kiddypi-918fe.firebaseio.com/");
+
+            var Items = await firebase.Child("Videos").OnceAsync<Video>();
 
             //await DisplayAlert("ok", Items.ToString(), "ok");
 

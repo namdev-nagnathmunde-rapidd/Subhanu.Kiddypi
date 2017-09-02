@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:Kiddypi"
              xmlns:ViewModel="clr-namespace:Kiddypi.ViewModel;assembly=Kiddypi"
              x:Name="StudentViewPage"
-             Title="{Binding Title}">
+            Title="Student Profile" >
 
 
     <ContentPage.ToolbarItems>
@@ -19,38 +19,146 @@
 
     </ContentPage.BindingContext>
 
-    <ListView ItemsSource="{Binding Studentdetails}" HasUnevenRows="True">
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <ViewCell>
+    <ContentPage.Content>
+        <Grid x:Name="outerGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="60" />
+            </Grid.RowDefinitions>
+            <Grid x:Name="innerGrid" Grid.Row="0"  Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <!--<Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>-->
 
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text=" {Binding StudentName}">
+                <ListView ItemsSource="{Binding Studentdetails}" HasUnevenRows="True" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Spacing="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                                    <Image Source="{Binding ImageUrl}" HeightRequest="200" WidthRequest="200" HorizontalOptions="Center" />
+                                    <Entry Text=" Student Profile" TextColor="Purple" x:Name="EntryTitle"/>
+                                    
+                                    <Grid x:Name="controlsGrid" Grid.Row="0"  >
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
 
-                        </Label>
-                        <Label Text=" {Binding StudentID}">
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
 
-                        </Label>
-                        <Label Text=" {Binding Image}">
-
-                        </Label>
-                        <Label Text=" {Binding Age}">
-                        </Label>
-                        <Label Text=" {Binding DOB}">
-
-                        </Label>
+                                        <Label Text="Student Full Name : " FontAttributes="Bold" TextColor="Green" Grid.Row="0" Grid.Column="0" />
+                                        <Label Text="{Binding StudentName}" TextColor="Yellow" Grid.Row="0" Grid.Column="1" HorizontalOptions="StartAndExpand" />
 
 
+                                        <Label Text="Parent Name          : " FontAttributes="Bold" TextColor="Green" Grid.Row="1" Grid.Column="0"/>
+                                        <Label FontSize="16" Text="{Binding ParentName}" TextColor="Yellow" Grid.Row="1" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
 
-                    </StackLayout>
-                </ViewCell>
-            </DataTemplate>
-        </ListView.ItemTemplate>
+                                        <Label Text="Email Address        :" FontAttributes="Bold" TextColor="Green" Grid.Row="2" Grid.Column="0"/>
+                                        <Label FontSize="16" Text="{Binding EmailID}" TextColor="Yellow" Grid.Row="2" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
 
-    </ListView>
+                                        <Label Text="Area Of Interest      :" FontAttributes="Bold" TextColor="Green" Grid.Row="3" Grid.Column="0"/>
+                                        <Label FontSize="16" Text="{Binding AreaOfInterest}" TextColor="Yellow" Grid.Row="3" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
 
-  
-        <!--<Button Clicked="Button_Clicked" VerticalOptions="End" HorizontalOptions="Center" BorderColor="PaleGoldenrod" Text="GoToVideoPage" TextColor="Blue"/>-->
-    
+                                        <Label Text="Projects                   :" FontAttributes="Bold" TextColor="Green" Grid.Row="4" Grid.Column="0"/>
+                                        <Label FontSize="16" Text="{Binding Project}" TextColor="Yellow" Grid.Row="4" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+
+
+                                        <Label Text="Date Of Birth            :" FontAttributes="Bold" TextColor="Green" Grid.Row="5" Grid.Column="0"/>
+                                        <Label FontSize="16" Text="{Binding DOB}" TextColor="Yellow" Grid.Row="5" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+
+                                        <Label Text="Age                          :" FontAttributes="Bold" TextColor="Green" Grid.Row="6" Grid.Column="0"/>
+                                        <Label FontSize="16" Text="{Binding Age}" TextColor="Yellow" Grid.Row="6" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+
+                                        <Label Text="Hobbies                   :" FontAttributes="Bold" TextColor="Green" Grid.Row="7" Grid.Column="0"/>
+                                        <Label FontSize="16" Text="{Binding Hobbies}" TextColor="Yellow" Grid.Row="7" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+
+                                    </Grid>
+
+
+                                </StackLayout>
+
+
+
+
+
+
+                                <!--<ScrollView Padding="10">
+                        <StackLayout Spacing="10">
+                            <Image Source="{Binding ImageUrl}" HeightRequest="200" WidthRequest="200"/>
+                            <Entry Text=""
+                             TextColor="Purple"
+                            x:Name="EntryTitle"/>
+                            
+                            
+                           
+                        </StackLayout>
+                    </ScrollView>-->
+
+
+                                <!--<ScrollView Padding="10">
+                        <StackLayout Spacing="10" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                            <Image Source="{Binding ImageUrl}" HeightRequest="200" WidthRequest="200"/>
+
+                            <Entry Text=""
+                                   TextColor="Purple"
+                                  x:Name="EntryTitle"/>
+                        
+                        <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                                <ContentView Padding="10" VerticalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand" VerticalOptions="Center">
+                                        <Label Text="Student Full Name: " FontAttributes="Bold" TextColor="Green" />
+                                        <Label Text="{Binding StudentName}" TextColor="Yellow" />
+
+                                        <Label Text="Parent Name : " FontAttributes="Bold" TextColor="Green" />
+                                        <Label FontSize="16" Text="{Binding ParentName}" TextColor="Yellow"/>
+
+                                        <Label Text="Email Address :" FontAttributes="Bold" TextColor="Green"/>
+                                        <Label FontSize="16" Text="{Binding EmailID}" TextColor="Yellow"/>
+
+                                        <Label Text="Area Of Interest :" FontAttributes="Bold" TextColor="Green"/>
+                                        <Label FontSize="16" Text="{Binding AreaOfInterest}" TextColor="Yellow"/>
+
+                                        <Label Text="Projects :" FontAttributes="Bold" TextColor="Green"/>
+                                        <Label FontSize="16" Text="{Binding Project}" TextColor="Yellow"/>
+
+                                        <Label Text="Date Of Birth:" FontAttributes="Bold" TextColor="Green"/>
+                                        <Label FontSize="16" Text="{Binding DOB}" TextColor="Yellow"/>
+
+                                        <Label Text="Age:" FontAttributes="Bold" TextColor="Green"/>
+                                        <Label FontSize="16" Text="{Binding Age}" TextColor="Yellow"/>
+
+                                        <Label Text="Hobbies:" FontAttributes="Bold" TextColor="Green"/>
+                                        <Label FontSize="16" Text="{Binding Hobbies}" TextColor="Yellow"/>
+
+
+                                    </StackLayout>
+                                </ContentView>
+
+
+                            </StackLayout>
+                        </StackLayout>
+                    </ScrollView>-->
+                            </ViewCell>
+                        </DataTemplate>
+
+                    </ListView.ItemTemplate>
+
+                </ListView>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+
+    <!--<Button Clicked="Button_Clicked" VerticalOptions="End" HorizontalOptions="Center" BorderColor="PaleGoldenrod" Text="GoToVideoPage" TextColor="Blue"/>-->
+
 
 </ContentPage>

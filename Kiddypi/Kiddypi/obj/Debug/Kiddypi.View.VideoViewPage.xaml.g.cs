@@ -11,12 +11,12 @@
 namespace Kiddypi.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Rapidd\\Kiddypi\\Kiddypi\\Kiddypi\\View\\MenuPageDetail.xaml")]
-    public partial class MenuPageDetail : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Rapidd\\Kiddypi\\Kiddypi\\Kiddypi\\View\\VideoViewPage.xaml")]
+    public partial class VideoViewPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MenuPageDetail));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(VideoViewPage));
         }
     }
 }

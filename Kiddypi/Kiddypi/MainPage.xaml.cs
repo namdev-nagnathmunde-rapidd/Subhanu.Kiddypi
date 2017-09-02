@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kiddypi.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,9 @@ namespace Kiddypi
         public MainPage()
         {
             InitializeComponent();
+            Task.Delay(3000).Wait();
+            Navigation.PushModalAsync(new LoginPage());
         }
+
     }
 }

@@ -51,17 +51,28 @@
     <Compile Include="Model\Images.cs" />
     <Compile Include="Model\MenuPageMenuItem.cs" />
     <Compile Include="Model\Student.cs" />
+    <Compile Include="Model\UserCompare.cs" />
+    <Compile Include="Model\UserLogin.cs" />
     <Compile Include="Model\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\ImageViewModel.cs" />
     <Compile Include="ViewModel\StudentViewModel.cs" />
     <Compile Include="ViewModel\VideoViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="View\AboutViewPage.xaml.cs">
+      <DependentUpon>AboutViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FirebaseLoginPage.xaml.cs">
+      <DependentUpon>FirebaseLoginPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\FirebaseQueryCheck.xaml.cs">
       <DependentUpon>FirebaseQueryCheck.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\ImageViewPage.xaml.cs">
       <DependentUpon>ImageViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\LoginViewPage.xaml.cs">
       <DependentUpon>LoginViewPage.xaml</DependentUpon>
@@ -69,17 +80,20 @@
     <Compile Include="View\MenuPage.xaml.cs">
       <DependentUpon>MenuPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\MenuPageDetail.xaml.cs">
-      <DependentUpon>MenuPageDetail.xaml</DependentUpon>
-    </Compile>
     <Compile Include="View\MenuPageMaster.xaml.cs">
       <DependentUpon>MenuPageMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProjectVideoViewPage.xaml.cs">
+      <DependentUpon>ProjectVideoViewPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\StudentViewPage.xaml.cs">
       <DependentUpon>StudentViewPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\VideoViewModel.xaml.cs">
       <DependentUpon>VideoViewModel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\VideoViewPage.xaml.cs">
+      <DependentUpon>VideoViewPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -176,7 +190,31 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="View\MenuPageDetail.xaml">
+    <EmbeddedResource Include="View\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\VideoViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\AboutViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\ProjectVideoViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\FirebaseLoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

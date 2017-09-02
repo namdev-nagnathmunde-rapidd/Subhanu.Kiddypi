@@ -40,7 +40,7 @@ namespace Kiddypi.Firebase
         {
             var firebase = new FirebaseClient("https://studentappfirebase-667c5.firebaseio.com/");
 
-            var item = await firebase.Child("StudentDetails").PostAsync(new Student() { StudentName = "Nmdev", Age = "24", DOB = "12/08/2007", StudentID = "66637", Image = "URL" });
+           // var item = await firebase.Child("StudentDetails").PostAsync(new Student() { StudentName = "Nmdev", Age = "24", DOB = "12/08/2007", StudentID = "66637", Image = "URL" });
 
 
         }
