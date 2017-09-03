@@ -1,4 +1,5 @@
-﻿using Kiddypi.ViewModel;
+﻿using Kiddypi.Model;
+using Kiddypi.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +21,8 @@ namespace Kiddypi.View
            
         }
 
+
+       
         public StudentViewModel ViewModel { get { return (BindingContext as StudentViewModel); } }
 
         protected override void OnAppearing()

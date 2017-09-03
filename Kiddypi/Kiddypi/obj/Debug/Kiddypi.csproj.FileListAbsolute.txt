@@ -45,3 +45,4 @@ E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.ProjectVideoViewPage.xa
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.dll
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.pdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.FirebaseLoginPage.xaml.g.cs
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.ImageDetailPage.xaml.g.cs

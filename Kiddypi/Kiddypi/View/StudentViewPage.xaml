@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:Kiddypi"
              xmlns:ViewModel="clr-namespace:Kiddypi.ViewModel;assembly=Kiddypi"
              x:Name="StudentViewPage"
-            Title="Student Profile" >
+            Title="Student Profile">
 
 
     <ContentPage.ToolbarItems>

@@ -68,6 +68,9 @@
     <Compile Include="View\FirebaseQueryCheck.xaml.cs">
       <DependentUpon>FirebaseQueryCheck.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ImageDetailPage.xaml.cs">
+      <DependentUpon>ImageDetailPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\ImageViewPage.xaml.cs">
       <DependentUpon>ImageViewPage.xaml</DependentUpon>
     </Compile>
@@ -215,6 +218,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\FirebaseLoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\ImageDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

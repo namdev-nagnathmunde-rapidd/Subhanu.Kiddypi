@@ -30,8 +30,10 @@
                   IsPullToRefreshEnabled="true"
                   IsRefreshing="{Binding IsBusy, Mode=OneWay}"
                   CachingStrategy="RecycleElement"
+                  ItemSelected="OnItemSelected"
                   x:Name="ImagesListView">
-                    <ListView.ItemTemplate>
+
+                        <ListView.ItemTemplate>
                         <DataTemplate>
                             <ImageCell Text="{Binding ImageName}"
                          Detail="{Binding ImageDescription}"
