@@ -37,7 +37,6 @@ E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.VideoViewModel.xaml.g.c
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.LoginViewPage.xaml.g.cs
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.FirebaseQueryCheck.xaml.g.cs
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.MenuPage.xaml.g.cs
-E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.MenuPageMaster.xaml.g.cs
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.LoginPage.xaml.g.cs
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.VideoViewPage.xaml.g.cs
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.AboutViewPage.xaml.g.cs
@@ -46,3 +45,4 @@ E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.dll
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.pdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.FirebaseLoginPage.xaml.g.cs
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.ImageDetailPage.xaml.g.cs
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi\obj\Debug\Kiddypi.View.MenuPageMaster.xaml.g.cs

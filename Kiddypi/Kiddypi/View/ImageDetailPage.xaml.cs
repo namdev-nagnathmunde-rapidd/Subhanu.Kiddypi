@@ -13,19 +13,12 @@ namespace Kiddypi.View
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ImageDetailPage : ContentPage
 	{
-        private Images item;
-        private ImageViewModel viewModel;
-
+        
         public ImageDetailPage ()
 		{
 			InitializeComponent ();
 		}
 
-        //public ImageDetailPage(Images item, ImageViewModel viewModel)
-        //{
-        //    this.item = item;
-        //    this.viewModel = viewModel;
-        //}
 
         Images Image;
         ImageViewModel vm;

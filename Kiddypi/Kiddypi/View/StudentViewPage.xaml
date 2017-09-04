@@ -9,7 +9,7 @@
 
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Sync" Command="{Binding GetSpeakersCommand}" />
+        <ToolbarItem Text="Sync" Command="{Binding GetStudentCommand}" />
     </ContentPage.ToolbarItems>
 
     <ContentPage.BindingContext>
