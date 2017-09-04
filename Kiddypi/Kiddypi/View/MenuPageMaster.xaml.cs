@@ -1,4 +1,5 @@
 ﻿using Kiddypi.Model;
+using Kiddypi.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -26,7 +27,7 @@ namespace Kiddypi.View
             ListView = MenuItemsListView;
         }
 
-        class MenuPageMasterViewModel : VideoViewModel
+    public   class MenuPageMasterViewModel :ViewModelBase
         {
             public ObservableCollection<MenuPageMenuItem> MenuItems { get; set; }
 

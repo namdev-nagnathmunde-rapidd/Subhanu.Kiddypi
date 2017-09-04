@@ -1,10 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Kiddypi.View.VideoViewPage">
+             x:Class="Kiddypi.View.VideoViewPage"
+             xmlns:local="clr-namespace:Kiddypi"
+             xmlns:ViewModel="clr-namespace:Kiddypi.ViewModel;assembly=Kiddypi"
+             x:Name="VideoViewPage"
+             Title="{Binding VideoName}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Sync" Clicked="OnSyncClicked" />
+    </ContentPage.ToolbarItems>
+
+    
+    <ContentPage.BindingContext>
+        <ViewModel:VideoDetailViewModel>
+        </ViewModel:VideoDetailViewModel>
+    </ContentPage.BindingContext>
+
+
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin Forms!" />
-        </StackLayout>
+        <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout
+        AbsoluteLayout.LayoutFlags="All"
+        AbsoluteLayout.LayoutBounds="0,0,1,1">
+                <ListView ItemsSource="{Binding Videodetails}"
+                  VerticalOptions="FillAndExpand"
+                  HasUnevenRows="true"
+                  ItemSelected="OnItemSelected"
+                  RefreshCommand="{Binding RefreshCommand}"
+                  IsPullToRefreshEnabled="true"
+                  IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                  CachingStrategy="RecycleElement"
+                  x:Name="VideoListView">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <StackLayout.Padding>
+                                        <OnPlatform x:TypeArguments="Thickness"
+                                iOS="10"
+                                Android="10"
+                                WinPhone="0, 0, 0, 10" />
+                                    </StackLayout.Padding>
+                                    <Image x:Name="VideoScreenImage" Aspect="AspectFill"
+                         Source="{Binding VideoScreen}" HeightRequest="200"
+                          />
+                                    <Label Text="{Binding VideoName}"
+                         LineBreakMode="NoWrap"
+                         Style="{DynamicResource ListItemTextStyle}"
+                         FontSize="16"/>
+                                    <Label Text="{Binding Presenter}"
+                         LineBreakMode="NoWrap"
+                         Style="{DynamicResource ListItemDetailTextStyle}"
+                         FontSize="13"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <StackLayout IsVisible="{Binding IsBusy}"
+                   Padding="32"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1">
+                <ActivityIndicator IsRunning="{Binding IsBusy}"/>
+            </StackLayout>
+        </AbsoluteLayout>
     </ContentPage.Content>
+
+    <!--<ListView ItemsSource="{Binding Videolist}" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <Label Text=" {Binding VideoName}"/>
+                        <Label Text=" {Binding VideoUrl}"/>
+
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>-->
+
+
 </ContentPage>

@@ -16,7 +16,7 @@
             HorizontalOptions="FillAndExpand"
             Source="{Binding ImageUrl}" />
 
-            <Label Text="{Binding ImageDescription}"
+            <Label Text="{Binding ImageDescription}" TextColor="Blue" FontAttributes="Italic"
       HorizontalOptions="Start"
       Font="Medium" />
 

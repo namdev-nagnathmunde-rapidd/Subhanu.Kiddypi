@@ -11,5 +11,7 @@ namespace Kiddypi.Model
 
        public string VideoName { get; set; }
        public string VideoUrl { get; set; }
+
+        public string VideoScreen { get; set; }
     }
 }

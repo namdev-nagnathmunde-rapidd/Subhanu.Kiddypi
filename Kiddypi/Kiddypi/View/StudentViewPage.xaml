@@ -57,30 +57,30 @@
                                         </Grid.ColumnDefinitions>
 
                                         <Label Text="Student Full Name : " FontAttributes="Bold" TextColor="Green" Grid.Row="0" Grid.Column="0" />
-                                        <Label Text="{Binding StudentName}" TextColor="Yellow" Grid.Row="0" Grid.Column="1" HorizontalOptions="StartAndExpand" />
+                                        <Label Text="{Binding StudentName}" TextColor="Blue" Grid.Row="0" FontAttributes="Italic" Grid.Column="1" HorizontalOptions="StartAndExpand" />
 
 
                                         <Label Text="Parent Name          : " FontAttributes="Bold" TextColor="Green" Grid.Row="1" Grid.Column="0"/>
-                                        <Label FontSize="16" Text="{Binding ParentName}" TextColor="Yellow" Grid.Row="1" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+                                        <Label FontSize="16" Text="{Binding ParentName}" TextColor="Blue" FontAttributes="Italic" Grid.Row="1" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
 
                                         <Label Text="Email Address        :" FontAttributes="Bold" TextColor="Green" Grid.Row="2" Grid.Column="0"/>
-                                        <Label FontSize="16" Text="{Binding EmailID}" TextColor="Yellow" Grid.Row="2" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+                                        <Label FontSize="16" Text="{Binding EmailID}" TextColor="Blue" FontAttributes="Italic" Grid.Row="2" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
 
                                         <Label Text="Area Of Interest      :" FontAttributes="Bold" TextColor="Green" Grid.Row="3" Grid.Column="0"/>
-                                        <Label FontSize="16" Text="{Binding AreaOfInterest}" TextColor="Yellow" Grid.Row="3" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+                                        <Label FontSize="16" Text="{Binding AreaOfInterest}" TextColor="Blue" FontAttributes="Italic" Grid.Row="3" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
 
                                         <Label Text="Projects                   :" FontAttributes="Bold" TextColor="Green" Grid.Row="4" Grid.Column="0"/>
-                                        <Label FontSize="16" Text="{Binding Project}" TextColor="Yellow" Grid.Row="4" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+                                        <Label FontSize="16" Text="{Binding Project}" TextColor="Blue" FontAttributes="Italic" Grid.Row="4" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
 
 
                                         <Label Text="Date Of Birth            :" FontAttributes="Bold" TextColor="Green" Grid.Row="5" Grid.Column="0"/>
-                                        <Label FontSize="16" Text="{Binding DOB}" TextColor="Yellow" Grid.Row="5" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+                                        <Label FontSize="16" Text="{Binding DOB}" TextColor="Blue" FontAttributes="Italic" Grid.Row="5" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
 
                                         <Label Text="Age                          :" FontAttributes="Bold" TextColor="Green" Grid.Row="6" Grid.Column="0"/>
-                                        <Label FontSize="16" Text="{Binding Age}" TextColor="Yellow" Grid.Row="6" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+                                        <Label FontSize="16" Text="{Binding Age}" TextColor="Blue" FontAttributes="Italic" Grid.Row="6" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
 
                                         <Label Text="Hobbies                   :" FontAttributes="Bold" TextColor="Green" Grid.Row="7" Grid.Column="0"/>
-                                        <Label FontSize="16" Text="{Binding Hobbies}" TextColor="Yellow" Grid.Row="7" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
+                                        <Label FontSize="16" Text="{Binding Hobbies}" TextColor="Blue" FontAttributes="Italic" Grid.Row="7" Grid.Column="1" HorizontalOptions="StartAndExpand"/>
 
                                     </Grid>
 
