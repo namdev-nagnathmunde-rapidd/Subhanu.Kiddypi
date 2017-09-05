@@ -28,6 +28,8 @@ namespace Kiddypi.ViewModel
         public ObservableCollection<Student> Studentdetails { get; set; }
 
         public ICommand GetStudentCommand { get; set; }
+       
+       
 
         public StudentViewModel()
         {
@@ -38,6 +40,10 @@ namespace Kiddypi.ViewModel
                 () => !IsBusy);
         }
 
+
+        LocalStorage UserCall = new LocalStorage();
+
+        private string[] usercompare = LocalStorage.userstor();
 
         async Task GetStudents()
         {
@@ -60,13 +66,12 @@ namespace Kiddypi.ViewModel
 
                 foreach (var item in Items)
                 {
+                    if (string.Compare(usercompare[0], item.Object.EmailID) == 0)
+                    {
 
-                    Studentdetails.Add(item.Object);
+                        Studentdetails.Add(item.Object);
+                    }           
                 }
-
-
-               
-                    
             }
             catch (Exception ex)
             {

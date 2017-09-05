@@ -32,11 +32,21 @@ namespace Kiddypi.View
 
         async void OnLoginButtonClicked(object sender, EventArgs e)
         {
+
+            LocalStorage.UserComparedetails[0]=(UserEmailEntry.Text);
+
             var user = new UserCompare
             {
                 CompareEmail = UserEmailEntry.Text,
                 ComparePassword = passwordEntry.Text
             };
+
+           
+           
+
+               
+
+
 
             Exception error = null;
             try
@@ -101,10 +111,12 @@ namespace Kiddypi.View
             bool Resp = false;
             foreach (UserLogin firebaseuser in userdetails)
             {
+                
 
                 if (string.Compare(user.CompareEmail, firebaseuser.UserEmail) == 0 && string.Compare(user.ComparePassword, firebaseuser.Password) == 0)
                 {
                     Resp = true;
+
                     break;
                 }
                 else
@@ -116,6 +128,8 @@ namespace Kiddypi.View
             return Resp;
 
         }
+
+        
     }
 
 

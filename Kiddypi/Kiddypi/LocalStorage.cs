@@ -11,6 +11,16 @@ namespace Kiddypi
    public class LocalStorage
     {
 
-        public ObservableCollection<UserCompare> UserComparedetails { get; set; }
+
+        //public static List<string> UserComparedetails { get; set; }
+
+        public static string [] UserComparedetails =new string[2];
+
+
+        public static string[]  userstor()
+        {
+
+            return UserComparedetails;
+        }
     }
 }
