@@ -48,6 +48,7 @@ c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi.Andr
 c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 c:\users\deva\documents\visual studio 2017\Projects\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\Kiddypi.Android.dll.config
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\Kiddypi.Android.dll
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\Kiddypi.Android.pdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\Kiddypi.Android.apk
@@ -73,6 +74,7 @@ E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\JWT.dll
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\System.Reactive.Interfaces.dll
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\crypto.dll
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\Kiddypi.pdb
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\Kiddypi.dll.config
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\FormsViewGroup.pdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\FormsViewGroup.dll.mdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\Xamarin.Forms.Core.pdb
@@ -116,5 +118,3 @@ E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Kiddypi.dll.m
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\Kiddypi.Android.dll.config
-E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\Kiddypi.dll.config

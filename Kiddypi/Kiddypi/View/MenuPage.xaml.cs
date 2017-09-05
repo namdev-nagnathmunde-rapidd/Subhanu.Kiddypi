@@ -70,6 +70,17 @@ namespace Kiddypi.View
                         break;
 
                     }
+                case "Session Schedule":
+                    {
+                       var SessionPage = new SessionsPage();
+                        SessionPage.Title = item.Title;
+                        Detail = new NavigationPage(SessionPage);
+                        IsPresented = false;
+                        MasterPage.ListView.SelectedItem = null;
+                        break;
+
+                    }
+                  
                 case "About":
                     {
                         var AboutPage = new AboutViewPage();                      

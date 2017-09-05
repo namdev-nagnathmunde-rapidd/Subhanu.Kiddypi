@@ -52,12 +52,16 @@
     <Compile Include="Model\Images.cs" />
     <Compile Include="Model\MenuPageMenuItem.cs" />
     <Compile Include="Model\ModelBase.cs" />
+    <Compile Include="Model\Session.cs" />
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\UserCompare.cs" />
     <Compile Include="Model\UserLogin.cs" />
     <Compile Include="Model\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\ImageViewModel.cs" />
+    <Compile Include="ViewModel\ITextToSpeech.cs" />
+    <Compile Include="ViewModel\SessionDetailViewModel.cs" />
+    <Compile Include="ViewModel\SessionsViewModel.cs" />
     <Compile Include="ViewModel\StudentViewModel.cs" />
     <Compile Include="ViewModel\VideoDetailViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
@@ -90,6 +94,12 @@
     </Compile>
     <Compile Include="View\ProjectVideoViewPage.xaml.cs">
       <DependentUpon>ProjectVideoViewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SessionDetailPage.xaml.cs">
+      <DependentUpon>SessionDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SessionsPage.xaml.cs">
+      <DependentUpon>SessionsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\StudentViewPage.xaml.cs">
       <DependentUpon>StudentViewPage.xaml</DependentUpon>
@@ -239,6 +249,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\VideoDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\SessionsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\SessionDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
