@@ -29,24 +29,17 @@
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <StackLayout>
+                              <StackLayout>
                                     <StackLayout.Padding>
-                                        <OnPlatform x:TypeArguments="Thickness"
+                              <OnPlatform x:TypeArguments="Thickness"
                                 iOS="10"
                                 Android="10"
                                 WinPhone="0, 0, 0, 10" />
-                                    </StackLayout.Padding>
-                                    <Image x:Name="HeroImage" Aspect="AspectFill"
-                         Source="{Binding Image}" HeightRequest="200"
-                          />
-                                    <Label Text="{Binding Title}"
-                         LineBreakMode="NoWrap"
-                         Style="{DynamicResource ListItemTextStyle}"
-                         FontSize="16"/>
-                                    <Label Text="{Binding Trainer}"
-                         LineBreakMode="NoWrap"
-                         Style="{DynamicResource ListItemDetailTextStyle}"
-                         FontSize="13"/>
+                              </StackLayout.Padding>
+                            <Image x:Name="HeroImage" Aspect="AspectFill" Source="{Binding Image}" HeightRequest="200" />
+
+                                    <Label Text="{Binding Title}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" FontSize="16" TextColor="#FF5733"/>
+                                    <Label Text="{Binding Trainer}"  LineBreakMode="NoWrap"  Style="{DynamicResource ListItemDetailTextStyle}"  FontSize="13" TextColor="Blue" FontAttributes="Italic" />
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>

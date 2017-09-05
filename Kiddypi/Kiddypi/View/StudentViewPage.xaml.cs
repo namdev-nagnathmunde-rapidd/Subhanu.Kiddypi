@@ -21,8 +21,7 @@ namespace Kiddypi.View
            
         }
 
-
-       
+   
         public StudentViewModel ViewModel { get { return (BindingContext as StudentViewModel); } }
 
         protected override void OnAppearing()
