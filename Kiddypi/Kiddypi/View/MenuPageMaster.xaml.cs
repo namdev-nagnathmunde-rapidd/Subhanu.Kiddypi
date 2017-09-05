@@ -39,7 +39,7 @@ namespace Kiddypi.View
                     new MenuPageMenuItem { Id = 1, Icon = "images", Title = "Images" },
                     new MenuPageMenuItem { Id = 2, Icon = "student_videos", Title = "Student Videos" },
                     new MenuPageMenuItem { Id = 3, Icon = "project_videos", Title = "Project Videos" },
-                    new MenuPageMenuItem { Id = 4, Icon = "videos_logo", Title = "Session Schedule" },
+                    new MenuPageMenuItem { Id = 4, Icon = "videos_logo", Title = "Schedule" },
                     new MenuPageMenuItem { Id = 5, Icon = "about_us", Title = "About" },
                     new MenuPageMenuItem { Id = 6, Icon = "logout", Title = "Logout" },
                 });

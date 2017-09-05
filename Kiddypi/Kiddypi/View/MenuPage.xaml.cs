@@ -70,7 +70,7 @@ namespace Kiddypi.View
                         break;
 
                     }
-                case "Session Schedule":
+                case "Schedule":
                     {
                        var SessionPage = new SessionsPage();
                         SessionPage.Title = item.Title;

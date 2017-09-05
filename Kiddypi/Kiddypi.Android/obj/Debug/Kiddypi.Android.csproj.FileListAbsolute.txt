@@ -118,3 +118,4 @@ E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Kiddypi.dll.m
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\res\drawable\session_background.jpeg
