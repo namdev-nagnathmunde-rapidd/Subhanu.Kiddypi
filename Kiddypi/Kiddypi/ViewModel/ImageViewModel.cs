@@ -33,6 +33,7 @@ namespace Kiddypi.ViewModel
                 () => !IsBusy);
         }
 
+        private string[] usercompare = LocalStorage.userstor();
 
 
         async Task GetImages()
@@ -56,8 +57,10 @@ namespace Kiddypi.ViewModel
 
                 foreach (var item in Items)
                 {
-
-                    Imagedetails.Add(item.Object);
+                    if (string.Compare(usercompare[0], item.Object.EmailID) == 0)
+                    {
+                        Imagedetails.Add(item.Object);
+                    }
                 }
 
 

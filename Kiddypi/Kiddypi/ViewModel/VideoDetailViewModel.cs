@@ -28,7 +28,7 @@ namespace Kiddypi.ViewModel
                 () => !IsBusy);
         }
 
-
+        private string[] usercompare = LocalStorage.userstor();
 
         async Task GetVideos()
         {
@@ -40,7 +40,7 @@ namespace Kiddypi.ViewModel
             {
                 IsBusy = true;
 
-                var firebase = new FirebaseClient("https://kiddypi-918fe.firebaseio.com/");
+                var firebase = new FirebaseClient(Constants.ApplicationURL);
 
                 var Items = await firebase.Child("Videos").OnceAsync<Video>();
 
@@ -52,7 +52,11 @@ namespace Kiddypi.ViewModel
                 foreach (var item in Items)
                 {
 
-                    Videodetails.Add(item.Object);
+                    if (string.Compare(usercompare[0], item.Object.EmailID) == 0)
+                    {
+
+                        Videodetails.Add(item.Object);
+                    }
                 }
 
 

@@ -44,13 +44,13 @@
                                 WinPhone="0, 0, 0, 10" />
                                     </StackLayout.Padding>
                                     <Image x:Name="VideoScreenImage" Aspect="AspectFill"
-                         Source="{Binding VideoScreen}" HeightRequest="200"
+                         Source="{Binding VideoImage}" HeightRequest="200"
                           />
                                     <Label Text="{Binding VideoName}"
                          LineBreakMode="NoWrap"
                          Style="{DynamicResource ListItemTextStyle}"
                          FontSize="16"/>
-                                    <Label Text="{Binding Presenter}"
+                                    <Label Text="{Binding Description}"
                          LineBreakMode="NoWrap"
                          Style="{DynamicResource ListItemDetailTextStyle}"
                          FontSize="13"/>

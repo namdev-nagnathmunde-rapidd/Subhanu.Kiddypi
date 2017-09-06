@@ -34,7 +34,7 @@ namespace Kiddypi
 
             
             // MainPage = new LoginViewPage();
-          //  MainPage = new FirebaseQueryCheck();
+          // MainPage = new FirebaseQueryCheck();
           // MainPage = new ImageViewPage();
        // MainPage = new StudentViewPage();
 

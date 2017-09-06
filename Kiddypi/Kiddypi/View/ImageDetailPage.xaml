@@ -7,21 +7,31 @@
 
 
     <ScrollView>
-        <StackLayout VerticalOptions="FillAndExpand" Padding="50">
-
-            <Label Text="{Binding ImageName}"
-      HorizontalOptions="Center"
-      Font="Bold,Large" />
+        <StackLayout VerticalOptions="FillAndExpand" Padding="10" >
 
             <Image Aspect="AspectFill"
             HorizontalOptions="FillAndExpand"
-            Source="{Binding ImageUrl}" />
-
-            <Label Text="{Binding ImageDescription}" TextColor="Blue" FontAttributes="Italic"
-      HorizontalOptions="Start"
-      Font="Medium" />
-
+            Source="{Binding ImageUrl}" HeightRequest="300" WidthRequest="500" />
            
+            
+            <Image Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            Source="{Binding ChildImage_1}"  HeightRequest="300" WidthRequest="500"/>
+
+            <Image Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            Source="{Binding ChildImage_2}" HeightRequest="300" WidthRequest="500" />
+
+            <Image Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            Source="{Binding ChildImage_3}" HeightRequest="300" WidthRequest="500"/>
+
+
+            <Image Aspect="AspectFill"
+            HorizontalOptions="FillAndExpand"
+            Source="{Binding ChildImage_4}" HeightRequest="300" WidthRequest="500"/>
+
         </StackLayout>
+        
     </ScrollView>
 </ContentPage>

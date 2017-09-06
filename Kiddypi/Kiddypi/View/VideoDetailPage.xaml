@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Kiddypi.View.VideoDetailPage"
-             Title="Watch Video ">
+             Title="Watch Video "
+             BackgroundImage="Student_Background">
     <ScrollView>
         <StackLayout VerticalOptions="FillAndExpand" Padding="50">
 
@@ -11,8 +12,35 @@
                  WidthRequest="600"
                  BackgroundColor="DarkGreen" 
                  VerticalOptions="Center"
-                 HorizontalOptions="Center" Source="{Binding VideoUrl}"/>
-          
+                 HorizontalOptions="Center" Source="{Binding Video1_Url}"/>
+            <Label Text="{Binding Video1_Description}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" FontSize="10" TextColor="Blue"/>
+
+            <WebView x:Name="ShowVideo1"
+                 HeightRequest="300" 
+                 WidthRequest="600"
+                 BackgroundColor="DarkGreen" 
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center" Source="{Binding Video2_Url}"/>
+            <Label Text="{Binding Video2_Description}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" FontSize="10" TextColor="Blue"/>
+
+            <WebView x:Name="ShowVideo2"
+                 HeightRequest="300" 
+                 WidthRequest="600"
+                 BackgroundColor="DarkGreen" 
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center" Source="{Binding Video3_Url}"/>
+            <Label Text="{Binding Video3_Description}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" FontSize="10" TextColor="Blue"/>
+
+
+            <WebView x:Name="ShowVideo3"
+                 HeightRequest="300" 
+                 WidthRequest="600"
+                 BackgroundColor="DarkGreen" 
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center" Source="{Binding Video4_Url}"/>
+            <Label Text="{Binding Video4_Description}" LineBreakMode="NoWrap" Style="{DynamicResource ListItemTextStyle}" FontSize="10" TextColor="Blue"/>
+
+           
 
         </StackLayout>
     </ScrollView>

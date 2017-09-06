@@ -38,7 +38,7 @@
                         <DataTemplate>
                             <ImageCell Text="{Binding ImageName}" TextColor="Blue"
                          Detail="{Binding ImageDescription}"
-                         ImageSource="{Binding ImageUrl}"/>
+                         ImageSource="{Binding ImageUrl}" Height="100"/>
                         </DataTemplate>
                     </ListView.ItemTemplate>
 

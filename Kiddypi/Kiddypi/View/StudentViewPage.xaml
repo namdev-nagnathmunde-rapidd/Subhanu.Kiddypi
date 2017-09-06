@@ -46,7 +46,7 @@
                             <ViewCell>
                                 <StackLayout Spacing="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                                     <Image Source="{Binding ImageUrl}" HeightRequest="200" WidthRequest="200" HorizontalOptions="Center" />
-                                    <Entry Text=" Student Profile" TextColor="Purple" x:Name="EntryTitle"/>
+                                    <Label Text=" Student Profile" TextColor="Purple" x:Name="text" FontAttributes="Bold"/>
                                     
                                     <Grid x:Name="controlsGrid" Grid.Row="0"  >
                                         <Grid.RowDefinitions>

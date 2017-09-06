@@ -41,7 +41,7 @@ namespace Kiddypi.ViewModel
         }
 
 
-        LocalStorage UserCall = new LocalStorage();
+
 
         private string[] usercompare = LocalStorage.userstor();
 
