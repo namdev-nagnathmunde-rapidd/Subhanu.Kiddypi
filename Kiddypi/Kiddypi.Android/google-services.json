@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "595680213737",
+    "firebase_url": "https://studentappfirebase-667c5.firebaseio.com",
+    "project_id": "studentappfirebase-667c5",
+    "storage_bucket": "studentappfirebase-667c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595680213737:android:324cd29b7205aa94",
+        "android_client_info": {
+          "package_name": "com.mastermind.xamarinfirebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595680213737-b232gfab203aqf0g80nq3p9ngokg1u3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjHM5XczFISgMAX-jzf6ZbE4sWgOatqXQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
