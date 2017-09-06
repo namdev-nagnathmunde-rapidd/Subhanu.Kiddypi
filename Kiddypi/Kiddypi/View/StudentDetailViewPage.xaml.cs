@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Kiddypi.Model;
+using Kiddypi.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,13 @@ namespace Kiddypi.View
         public StudentDetailViewPage()
         {
             InitializeComponent();
+        }
+         Student student;
+        StudentViewModel vm;
+        public StudentDetailViewPage(Student selectedStudent, StudentViewModel vm) : this()
+        {
+            BindingContext = this.student = selectedStudent;
+            this.vm = vm;
         }
     }
 }

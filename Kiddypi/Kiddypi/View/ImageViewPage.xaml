@@ -5,7 +5,8 @@
              xmlns:local="clr-namespace:Kiddypi"
              xmlns:ViewModel="clr-namespace:Kiddypi.ViewModel;assembly=Kiddypi"
              x:Name="ImageViewPage"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             BackgroundImage="Student_Background">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Sync" Command="{Binding GetImageCommand}" />
@@ -35,7 +36,7 @@
 
                         <ListView.ItemTemplate>
                         <DataTemplate>
-                            <ImageCell Text="{Binding ImageName}"
+                            <ImageCell Text="{Binding ImageName}" TextColor="Blue"
                          Detail="{Binding ImageDescription}"
                          ImageSource="{Binding ImageUrl}"/>
                         </DataTemplate>

@@ -108,6 +108,8 @@ E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\res\drawable-xxhdpi\icon.png
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\res\drawable-hdpi\splash_screen.jpg
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\res\drawable-xhdpi\splash_screen.jpg
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\res\drawable-xxhdpi\splash_screen.jpg
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\res\drawable\session_background.jpeg
+E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\res\drawable\student_background.jpeg
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\R.cs.flag
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\uploadflags.txt
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\bin\Debug\Kiddypi.dll.mdb
@@ -118,4 +120,3 @@ E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Kiddypi.dll.m
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\res\drawable\session_background.jpeg

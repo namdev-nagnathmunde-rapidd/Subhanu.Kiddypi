@@ -101,6 +101,9 @@
     <Compile Include="View\SessionsPage.xaml.cs">
       <DependentUpon>SessionsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\StudentDetailViewPage.xaml.cs">
+      <DependentUpon>StudentDetailViewPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\StudentViewPage.xaml.cs">
       <DependentUpon>StudentViewPage.xaml</DependentUpon>
     </Compile>
@@ -261,6 +264,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="View\SessionDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\StudentDetailViewPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Kiddypi.View.LoginViewPage" 
               xmlns:local="clr-namespace:Kiddypi"
-             xmlns:ViewModel="clr-namespace:Kiddypi.ViewModel;assembly=Kiddypi">
-    
+             xmlns:ViewModel="clr-namespace:Kiddypi.ViewModel;assembly=Kiddypi"
+             BackgroundImage="Student_Background"
+             Title="Session Detail">
     
     <ContentPage.ToolbarItems>
 

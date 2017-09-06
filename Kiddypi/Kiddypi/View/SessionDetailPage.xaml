@@ -4,7 +4,8 @@
              x:Class="Kiddypi.View.SessionDetailPage"
              xmlns:ViewModel="clr-namespace:Kiddypi.ViewModel;assembly=Kiddypi"
              xmlns:local="clr-namespace:Kiddypi;assembly=Kiddypi"
-            BackgroundImage="Session_Background" >
+            BackgroundImage="Session_Background"
+             Title="SessionDetails">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -14,7 +15,7 @@
         <StackLayout BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <ContentView Padding="10,40,10,40" VerticalOptions="FillAndExpand">
                 <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand" VerticalOptions="Center">
-                    <Label Text="{Binding SessionName}" TextColor="Blue" FontAttributes="Bold" FontSize="22"/>
+                    <Label Text="{Binding SessionName}" TextColor="#FF5733" FontAttributes="Bold" FontSize="22"/>
                     <!--<Image Source="{Binding TrainerImage}" HeightRequest="200" WidthRequest="200" HorizontalOptions="Center" />-->
                     <Label FontSize="16" Text="{Binding TrainerName}" TextColor="Purple" HorizontalOptions="Center"/>
                     <Label FontSize="16" Text="{Binding Time}" TextColor="Green" FontAttributes="Italic"/>

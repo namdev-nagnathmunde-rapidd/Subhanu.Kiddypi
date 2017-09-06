@@ -5,7 +5,8 @@
              xmlns:local="clr-namespace:Kiddypi"
              xmlns:ViewModel="clr-namespace:Kiddypi.ViewModel;assembly=Kiddypi"
              x:Name="StudentViewPage"
-            Title="Student Profile">
+            Title="Student Profile"
+             BackgroundImage="Student_Background">
 
 
     <ContentPage.ToolbarItems>
@@ -34,11 +35,16 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>-->
 
-                <ListView ItemsSource="{Binding Studentdetails}" HasUnevenRows="True" >
+                <ListView ItemsSource="{Binding Studentdetails}" HasUnevenRows="True" RefreshCommand="{Binding RefreshCommand}"
+                  IsPullToRefreshEnabled="true"
+                  IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                  CachingStrategy="RecycleElement"
+                  ItemSelected="OnItemSelected"
+                  x:Name="StudentListView">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <StackLayout Spacing="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                                <StackLayout Spacing="10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                                     <Image Source="{Binding ImageUrl}" HeightRequest="200" WidthRequest="200" HorizontalOptions="Center" />
                                     <Entry Text=" Student Profile" TextColor="Purple" x:Name="EntryTitle"/>
                                     

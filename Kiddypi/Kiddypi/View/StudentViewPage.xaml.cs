@@ -20,9 +20,32 @@ namespace Kiddypi.View
 
            
         }
-
-   
+        
         public StudentViewModel ViewModel { get { return (BindingContext as StudentViewModel); } }
+
+
+        async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
+        {
+            var item = args.SelectedItem as Student;
+            if (item == null)
+                return;
+
+            await Navigation.PushAsync(new StudentDetailViewPage(item, ViewModel));
+
+            // Manually deselect item
+            StudentListView.SelectedItem = null;
+        }
+
+        void OnSyncClicked(object sender, EventArgs e)
+        {
+            ViewModel?.GetStudentCommand?.Execute(null);
+        }
+
+
+
+
+
+
 
         protected override void OnAppearing()
         {
