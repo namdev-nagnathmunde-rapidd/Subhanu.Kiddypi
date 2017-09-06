@@ -2,8 +2,15 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Android.Support.Transition\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Android.Support.Design\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.MediaRouter\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.GooglePlayServices.Basement\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.GooglePlayServices.Base\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
@@ -11,7 +18,14 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>E:\Rapidd\Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Android.Support.Transition.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.RecyclerView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.AppCompat.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Android.Support.Design.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.Android.Support.v7.MediaRouter.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.GooglePlayServices.Basement.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>E:\Kiddypi\Subhanu.Kiddypi\Kiddypi\Kiddypi.Android\obj\Debug\__library_projects__\Xamarin.GooglePlayServices.Base.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

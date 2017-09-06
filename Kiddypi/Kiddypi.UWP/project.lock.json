@@ -22268,20 +22268,20 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DEVA\\.nuget\\packages\\": {}
+    "C:\\Users\\Kiddypi\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "E:\\Rapidd\\Kiddypi\\Kiddypi\\Kiddypi.UWP\\Kiddypi.UWP.csproj",
+      "projectUniqueName": "E:\\Kiddypi\\Subhanu.Kiddypi\\Kiddypi\\Kiddypi.UWP\\Kiddypi.UWP.csproj",
       "projectName": "Kiddypi.UWP",
-      "projectPath": "E:\\Rapidd\\Kiddypi\\Kiddypi\\Kiddypi.UWP\\Kiddypi.UWP.csproj",
-      "projectJsonPath": "E:\\Rapidd\\Kiddypi\\Kiddypi\\Kiddypi.UWP\\project.json",
+      "projectPath": "E:\\Kiddypi\\Subhanu.Kiddypi\\Kiddypi\\Kiddypi.UWP\\Kiddypi.UWP.csproj",
+      "projectJsonPath": "E:\\Kiddypi\\Subhanu.Kiddypi\\Kiddypi\\Kiddypi.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "E:\\Rapidd\\Kiddypi\\Kiddypi\\Kiddypi\\Kiddypi.csproj": {
-              "projectPath": "E:\\Rapidd\\Kiddypi\\Kiddypi\\Kiddypi\\Kiddypi.csproj"
+            "E:\\Kiddypi\\Subhanu.Kiddypi\\Kiddypi\\Kiddypi\\Kiddypi.csproj": {
+              "projectPath": "E:\\Kiddypi\\Subhanu.Kiddypi\\Kiddypi\\Kiddypi\\Kiddypi.csproj"
             }
           }
         }

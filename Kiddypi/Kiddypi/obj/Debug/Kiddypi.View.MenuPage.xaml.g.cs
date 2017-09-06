@@ -11,7 +11,7 @@
 namespace Kiddypi.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Rapidd\\Kiddypi\\Kiddypi\\Kiddypi\\View\\MenuPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\Kiddypi\\Subhanu.Kiddypi\\Kiddypi\\Kiddypi\\View\\MenuPage.xaml")]
     public partial class MenuPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
